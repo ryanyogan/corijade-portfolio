@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { DownArrow } from "../components/down-arrow";
 import { Layout } from "../components/layout";
@@ -8,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className="flex justify-center items-center flex-col mt-32 p-2 sm:p-8">
-        <img
+        <Image
           src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398112/corijade.me/signature.png"
           alt="cori jade signature"
           height="30"
@@ -43,7 +44,7 @@ const Home: NextPage = () => {
 
         <div className="grid sm:grid-cols-2 gap-x-10 items-center justify-center">
           <div className="flex justify-centerq">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398133/corijade.me/t1-tracker.png"
               alt="t1 tracker"
               className="w-80 h-80 object-contain"
@@ -73,7 +74,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398129/corijade.me/netflix.png"
               alt="netflix"
               className="w-80 h-80 object-contain"
@@ -106,7 +107,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398126/corijade.me/jsj.png"
               alt="netflix"
               className="w-80 h-80 object-contain"
@@ -138,7 +139,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398136/corijade.me/zeit.png"
               alt="netflix"
               className="w-80 h-80 object-contain"
@@ -168,7 +169,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661976564/corijade.me/Chicken.png"
               alt="pickles chicken shack"
               className="w-80 h-80 object-contain"
@@ -197,7 +198,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center">
-            <img
+            <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661976562/corijade.me/Football.png"
               alt="football banner"
               className="w-80 h-80 object-contain"
@@ -214,7 +215,7 @@ const Home: NextPage = () => {
               </div>
               <div className="text-gray-800 tracking-wide text-center sm:text-left font-thin">
                 My older son plays tackle football, so I<br />
-                designed the team's 15' x 18' run-through
+                designed the team&apos;s 15&apos; x 18&apos; run-through
                 <br />
                 banner while sitting at practice. 🏈
               </div>
