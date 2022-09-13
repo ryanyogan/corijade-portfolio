@@ -12,8 +12,8 @@ const Home: NextPage = () => {
         <Image
           src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398112/corijade.me/signature.png"
           alt="cori jade signature"
-          height="30"
-          width="240"
+          width={230}
+          height={90}
         />
 
         <div className="text-gray-700 mt-3 sm:mt-6 sm:text-xl font-light">
@@ -47,7 +47,9 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398133/corijade.me/t1-tracker.png"
               alt="t1 tracker"
-              className="w-80 h-80 object-contain"
+              height={200}
+              width={250}
+              className="object-contain"
             />
           </div>
           <div className="flex flex-col gap-y-1 items-center sm:items-start">
@@ -62,11 +64,8 @@ const Home: NextPage = () => {
               <br /> Diabetic Caregivers.
             </div>
             <div className="text-orange-600 font-light mt-2">
-              <Link
-                href="work/t1-tracker"
-                className="flex flex-row items-center gap-x-1"
-              >
-                <span>
+              <Link href="work/t1-tracker">
+                <span className="flex flex-row items-center gap-x-1">
                   <RightArrow /> Case Study
                 </span>
               </Link>
@@ -77,6 +76,8 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398129/corijade.me/netflix.png"
               alt="netflix"
+              height={200}
+              width={250}
               className="w-80 h-80 object-contain"
             />
           </div>
@@ -94,11 +95,8 @@ const Home: NextPage = () => {
                 <br /> Conceptual Project
               </div>
               <div className="text-orange-600 font-light mt-2 flex flex-row gap-x-1 items-center">
-                <Link
-                  href="work/netflix"
-                  className="flex flex-row items-center gap-x-1"
-                >
-                  <span>
+                <Link href="work/netflix">
+                  <span className="flex flex-row items-center gap-x-1">
                     <RightArrow /> Case Study
                   </span>
                 </Link>
@@ -110,6 +108,8 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398126/corijade.me/jsj.png"
               alt="netflix"
+              height={200}
+              width={250}
               className="w-80 h-80 object-contain"
             />
           </div>
@@ -126,11 +126,8 @@ const Home: NextPage = () => {
                 <br /> Alternative Healthcare Practioner
               </div>
               <div className="text-orange-600 mt-2 font-light flex flex-row gap-x-1 items-center">
-                <Link
-                  href="work/jsj"
-                  className="flex flex-row items-center gap-x-1"
-                >
-                  <span>
+                <Link href="work/jsj">
+                  <span className="flex flex-row items-center gap-x-1">
                     <RightArrow /> Case Study
                   </span>
                 </Link>
@@ -142,6 +139,8 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661398136/corijade.me/zeit.png"
               alt="netflix"
+              height={200}
+              width={250}
               className="w-80 h-80 object-contain"
             />
           </div>
@@ -156,11 +155,8 @@ const Home: NextPage = () => {
                 <br /> Conceptual Project
               </div>
               <div className="text-orange-600 font-light mt-2">
-                <Link
-                  href="work/zeit"
-                  className="flex flex-row items-center gap-x-1"
-                >
-                  <span>
+                <Link href="work/zeit">
+                  <span className="flex flex-row items-center gap-x-1">
                     <RightArrow /> Case Study
                   </span>
                 </Link>
@@ -172,6 +168,8 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661976564/corijade.me/Chicken.png"
               alt="pickles chicken shack"
+              height={200}
+              width={250}
               className="w-80 h-80 object-contain"
             />
           </div>
@@ -201,6 +199,8 @@ const Home: NextPage = () => {
             <Image
               src="https://res.cloudinary.com/dhujko6ey/image/upload/v1661976562/corijade.me/Football.png"
               alt="football banner"
+              height={200}
+              width={250}
               className="w-80 h-80 object-contain"
             />
           </div>
